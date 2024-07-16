@@ -12,12 +12,29 @@
     .offer .offer-box .offer-info .heading-bigger{
         font-size: 3rem;
     } 
+    /* Special css  */
+    .special .countdown-container  .countdown-counter li{
+        padding: 1.5rem 1rem;
+    }
 }
 
 @media(max-width:991px){
     /* Home Css  */
     .home .home-banner .home-banner-text{
         transform: translate(-66%,-50%);
+    }
+    /* Special css  */
+    .special .countdown-container{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+    /* Testimonial Css  */
+    .testimonial .testimonial-wrapper{
+        padding: 1rem;
+    }
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-prev{
+        display: none;
     }
 }
 
@@ -48,10 +65,21 @@
     .products .up_to_content h2{
         font-size: 0.75rem;
     }
+    /* Special css  */
+    .special {
+        padding: 4rem 0;
+    }
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem ;
+        width: 20%;
+    } 
 }
 @media(max-width:330px){
     /* home Css  */
     .home .home-banner .home-banner-text h2{
         font-size: 1rem;
+    }
+    .products .up_to_content h2{
+        font-size: 0.625rem;
     }
 }
