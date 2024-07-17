@@ -64,15 +64,13 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
+    color: var(--bg-danger);
     width: unset;
     height: unset;
   }
   #header .navbar-toggler:focus{
     box-shadow: none;
   }
-.home{
-   padding-top: 4rem;
-}
   /* Home Section  */
  .home .home-banner-1,
  .home .home-banner-2{
