@@ -1,6 +1,5 @@
 // Special  Countdown
 
-
 let dayItem = document.querySelector("#days");
 let hoursItem = document.querySelector("#hours");
 let minItem = document.querySelector("#min");
@@ -24,7 +23,6 @@ let countDown = () => {
 
 countDown();
 setInterval(countDown, 1000);
-
 
 
 // Get the scroll to top button
